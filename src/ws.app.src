@@ -1,0 +1,13 @@
+{application, ws,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  cowboy
+                 ]},
+  {mod, { ws_app, []}},
+  {env, []}
+ ]}.
